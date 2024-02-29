@@ -17,7 +17,7 @@ Container card(double largura, double altura, Color color, String texto, String 
         children: [
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Text(texto, style: textNunitoWBold(16)),
+            child: Text(texto, style: textNunitoBold(16)),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
@@ -44,7 +44,7 @@ Container cardDois(double largura, double altura, Color color, String texto, Str
         children: [
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Text(texto, style: textBold(12)),
+            child: Text(texto, style: textNunitoBold(12)),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),

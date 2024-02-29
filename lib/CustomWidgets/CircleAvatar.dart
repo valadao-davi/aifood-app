@@ -23,3 +23,13 @@ Widget circleAvatarSacola(String img) {
       ),
     );
 }
+Widget CircleAvatarLoja(String img) {
+  return SizedBox(
+    width: 60,
+    height: 60,
+      child: CircleAvatar(
+        radius: 50,
+        backgroundImage: NetworkImage(img),
+      ),
+    );
+}
